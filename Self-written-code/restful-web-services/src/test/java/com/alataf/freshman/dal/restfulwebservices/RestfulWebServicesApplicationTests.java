@@ -13,7 +13,8 @@ class RestfulWebServicesApplicationTests {
 
 	@Autowired
 	private StudentRepository repo;
-	
+
+	//For testing purpose
 	@Test
 	void StudentRepository() {
 		Student student = new Student();
