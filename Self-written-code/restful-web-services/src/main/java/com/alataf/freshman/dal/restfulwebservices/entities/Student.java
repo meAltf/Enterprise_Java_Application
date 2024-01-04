@@ -7,6 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//creating Model class and mapped with database
 //convert it into JPA entity
 @Entity 
 @Table(name="studnettab") //if our database name is same as class name then we don't need to use @Table entity.
