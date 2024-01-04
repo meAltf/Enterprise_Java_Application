@@ -10,3 +10,6 @@ sfee int
 )
 
 select * from studenttab
+
+//for deleting something
+--Drop table where 'condition'
