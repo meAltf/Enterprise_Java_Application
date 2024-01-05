@@ -1,3 +1,5 @@
+# create database for customer
+
 create database customerdb
 
 use customerdb
