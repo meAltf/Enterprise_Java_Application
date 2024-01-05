@@ -7,6 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import com.alataf.customer.dal.restfulwebservicescustomer.entities.Customer;
 import com.alataf.customer.dal.restfulwebservicescustomer.repos.CustomerRepository;
 
+//creating these functions for testing purpose.
 @SpringBootTest
 class RestfulWebServicesCustomerApplicationTests {
 
