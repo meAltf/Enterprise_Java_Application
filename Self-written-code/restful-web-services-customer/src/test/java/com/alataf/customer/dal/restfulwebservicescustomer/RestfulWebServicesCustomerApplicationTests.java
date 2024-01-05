@@ -16,7 +16,7 @@ class RestfulWebServicesCustomerApplicationTests {
 	
 	
 	@Test
-	void StudentRepository() {
+	void CustomerRepository() {
 		Customer customer = new Customer();
 		customer.setName("Alataf");
 		customer.setEmail("alataf@google.com");
@@ -24,13 +24,13 @@ class RestfulWebServicesCustomerApplicationTests {
 	}
 	
 	@Test
-	void testFindStudentById() {
+	void testFindCustomerById() {
 		Customer customer= repo.findById(1l).get();
 		System.out.println(customer);
 	}
 	
 	@Test
-	void testUpdateStudent() {
+	void testUpdateCustomer() {
 		Customer customer = repo.findById(1l).get();
 		customer.setEmail("robert@walmart.org");
 		repo.save(customer);
@@ -38,7 +38,7 @@ class RestfulWebServicesCustomerApplicationTests {
 	}
 	
 	@Test
-	void testDeleteStudent() {
+	void testDeleteCustomer() {
 		Customer customer = repo.findById(1l).get();
 		repo.delete(customer);
 	}
