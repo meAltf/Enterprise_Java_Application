@@ -7,6 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+//create model class for customer and also properly mapped with database.
 @Entity
 @Table(name="customer")
 public class Customer {
