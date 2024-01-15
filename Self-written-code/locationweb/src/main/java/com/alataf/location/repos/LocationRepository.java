@@ -1,6 +1,6 @@
 package com.alataf.location.repos;
 
-import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.alataf.location.entities.Location;
 /*
@@ -11,6 +11,6 @@ import com.alataf.location.entities.Location;
  * ID- primaryKey in database--> here integer
  */
 
-public interface LocationRepository extends CrudRepository<Location, Integer> {
+public interface LocationRepository extends JpaRepository<Location, Integer> {
 
 }
