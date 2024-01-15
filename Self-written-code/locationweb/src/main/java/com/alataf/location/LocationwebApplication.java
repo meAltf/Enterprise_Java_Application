@@ -8,6 +8,8 @@ public class LocationwebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LocationwebApplication.class, args);
+		
+		System.out.println("Now, successfully, completed the Data access layer");
 	}
 
 }
